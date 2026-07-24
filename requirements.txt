@@ -1,0 +1,28 @@
+# ==========================================
+# DeepFake Detector
+# Requirements
+# Python 3.11+
+# ==========================================
+
+# Deep Learning
+torch>=2.3.0
+torchvision>=0.18.0
+
+# Image Processing
+opencv-python>=4.10.0
+Pillow>=10.3.0
+
+# Numerical Computing
+numpy>=1.26.4
+
+# Machine Learning Metrics
+scikit-learn>=1.5.0
+
+# Data Visualization
+matplotlib>=3.9.0
+
+# Progress Bar
+tqdm>=4.66.4
+
+# Explainable AI
+grad-cam>=1.5.0
