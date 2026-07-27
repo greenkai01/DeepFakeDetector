@@ -227,6 +227,196 @@ python predict.py
 
 ---
 
-# License
+# Result
 
-This project is created for educational and research purposes.
+============================================================
+Explainable DeepFake Detector
+============================================================
+Epoch 1/30
+Training:   0%|                                                   | 0/108 [00:00<?, ?it/s]C:\DeepFakeDetector\.venv\lib\site-packages\torch\utils\data\dataloader.py:1102: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+Train Loss : 0.5839                                                                       
+Train Acc  : 0.6854
+Valid Loss : 0.5037
+Valid Acc  : 0.7704
+Model saved -> C:\DeepFakeDetector\weights\best_model.pth
+Epoch 2/30
+Train Loss : 0.5278                                                                       
+Train Acc  : 0.7361
+Valid Loss : 0.4799
+Valid Acc  : 0.7779
+Model saved -> C:\DeepFakeDetector\weights\best_model.pth
+Epoch 3/30
+Train Loss : 0.5135                                                                       
+Train Acc  : 0.7475
+Valid Loss : 0.5255
+Valid Acc  : 0.7283
+EarlyStopping : 1/5
+Epoch 4/30
+Train Loss : 0.4812                                                                       
+Train Acc  : 0.7710
+Valid Loss : 0.4711
+Valid Acc  : 0.7779
+Epoch 5/30
+Train Loss : 0.4761                                                                       
+Train Acc  : 0.7815
+Valid Loss : 0.4465
+Valid Acc  : 0.8010
+Model saved -> C:\DeepFakeDetector\weights\best_model.pth
+Epoch 6/30
+Train Loss : 0.4784                                                                       
+Train Acc  : 0.7830
+Valid Loss : 0.4322
+Valid Acc  : 0.8035
+Model saved -> C:\DeepFakeDetector\weights\best_model.pth
+Epoch 7/30
+Train Loss : 0.4665                                                                       
+Train Acc  : 0.7786
+Valid Loss : 0.4324
+Valid Acc  : 0.8092
+Model saved -> C:\DeepFakeDetector\weights\best_model.pth
+EarlyStopping : 1/5
+Epoch 8/30
+Train Loss : 0.4607                                                                       
+Train Acc  : 0.7804
+Valid Loss : 0.4316
+Valid Acc  : 0.8068
+EarlyStopping : 2/5
+Epoch 9/30
+Train Loss : 0.4457                                                                       
+Train Acc  : 0.7911
+Valid Loss : 0.4486
+Valid Acc  : 0.7882
+EarlyStopping : 3/5
+Epoch 10/30
+Train Loss : 0.4482                                                                       
+Train Acc  : 0.7935
+Valid Loss : 0.4296
+Valid Acc  : 0.8068
+Epoch 11/30
+Train Loss : 0.4494                                                                       
+Train Acc  : 0.7856
+Valid Loss : 0.4321
+Valid Acc  : 0.8113
+Model saved -> C:\DeepFakeDetector\weights\best_model.pth
+EarlyStopping : 1/5
+Epoch 12/30
+Train Loss : 0.4285                                                                       
+Train Acc  : 0.8089
+Valid Loss : 0.4258
+Valid Acc  : 0.8039
+Epoch 13/30
+Train Loss : 0.4245                                                                       
+Train Acc  : 0.8028
+Valid Loss : 0.4269
+Valid Acc  : 0.8064
+EarlyStopping : 1/5
+Epoch 14/30
+Train Loss : 0.4218                                                                       
+Train Acc  : 0.8089
+Valid Loss : 0.4152
+Valid Acc  : 0.8080
+Epoch 15/30
+Train Loss : 0.4333                                                                       
+Train Acc  : 0.8005
+Valid Loss : 0.4367
+Valid Acc  : 0.7981
+EarlyStopping : 1/5
+Epoch 16/30
+Train Loss : 0.3998                                                                       
+Train Acc  : 0.8238
+Valid Loss : 0.4188
+Valid Acc  : 0.8109
+EarlyStopping : 2/5
+Epoch 17/30
+Train Loss : 0.3999                                                                       
+Train Acc  : 0.8162
+Valid Loss : 0.4259
+Valid Acc  : 0.8006
+EarlyStopping : 3/5
+Epoch 18/30
+Train Loss : 0.3905                                                                       
+Train Acc  : 0.8267
+Valid Loss : 0.4164
+Valid Acc  : 0.8109
+EarlyStopping : 4/5
+Epoch 19/30
+Train Loss : 0.3871                                                                       
+Train Acc  : 0.8252
+Valid Loss : 0.4129
+Valid Acc  : 0.8113
+Epoch 20/30
+Train Loss : 0.3775                                                                       
+Train Acc  : 0.8322
+Valid Loss : 0.4155
+Valid Acc  : 0.8105
+EarlyStopping : 1/5
+Epoch 21/30
+Train Loss : 0.3628                                                                       
+Train Acc  : 0.8395
+Valid Loss : 0.4259
+Valid Acc  : 0.8055
+EarlyStopping : 2/5
+Epoch 22/30
+Train Loss : 0.3615                                                                       
+Train Acc  : 0.8392
+Valid Loss : 0.4264
+Valid Acc  : 0.8080
+EarlyStopping : 3/5
+Epoch 23/30
+Train Loss : 0.3521                                                                       
+Train Acc  : 0.8447
+Valid Loss : 0.4174
+Valid Acc  : 0.8154
+Model saved -> C:\DeepFakeDetector\weights\best_model.pth
+EarlyStopping : 4/5
+Epoch 24/30
+Train Loss : 0.3392                                                                       
+Train Acc  : 0.8523
+Valid Loss : 0.4050
+Valid Acc  : 0.8233
+Model saved -> C:\DeepFakeDetector\weights\best_model.pth
+Epoch 25/30
+Train Loss : 0.3430                                                                       
+Train Acc  : 0.8555
+Valid Loss : 0.4308
+Valid Acc  : 0.8146
+EarlyStopping : 1/5
+Epoch 26/30
+Train Loss : 0.3331                                                                       
+Train Acc  : 0.8599
+Valid Loss : 0.4038
+Valid Acc  : 0.8200
+Epoch 27/30
+Train Loss : 0.3279                                                                       
+Train Acc  : 0.8576
+Valid Loss : 0.4049
+Valid Acc  : 0.8229
+EarlyStopping : 1/5
+Epoch 28/30
+Train Loss : 0.3344                                                                       
+Train Acc  : 0.8482
+Valid Loss : 0.4022
+Valid Acc  : 0.8183
+Epoch 29/30
+Train Loss : 0.3330                                                                       
+Train Acc  : 0.8558
+Valid Loss : 0.4034
+Valid Acc  : 0.8187
+EarlyStopping : 1/5
+Epoch 30/30
+Train Loss : 0.3349                                                                       
+Train Acc  : 0.8549
+Valid Loss : 0.4208
+Valid Acc  : 0.8159
+EarlyStopping : 2/5
+Model saved -> C:\DeepFakeDetector\weights\last_model.pth
+============================================================
+Training Finished
+Best Accuracy : 0.8233
+============================================================
+(.venv) PS C:\DeepFakeDetector> 
+
+<img width="1360" height="806" alt="Screenshot_20260727_134830_Chrome" src="https://github.com/user-attachments/assets/29b89218-ed5f-4790-82be-1500cb5d9912" />
+
+<img width="1235" height="762" alt="Screenshot_20260727_134837_Chrome" src="https://github.com/user-attachments/assets/498b39d6-ceb2-427f-8790-833d7ad62885" />
