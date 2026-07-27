@@ -229,9 +229,8 @@ python predict.py
 
 # Result
 
-============================================================
 Explainable DeepFake Detector
-============================================================
+
 Epoch 1/30
 Training:   0%|                                                   | 0/108 [00:00<?, ?it/s]C:\DeepFakeDetector\.venv\lib\site-packages\torch\utils\data\dataloader.py:1102: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
   super().__init__(loader)
@@ -411,11 +410,11 @@ Valid Loss : 0.4208
 Valid Acc  : 0.8159
 EarlyStopping : 2/5
 Model saved -> C:\DeepFakeDetector\weights\last_model.pth
-============================================================
-Training Finished
-Best Accuracy : 0.8233
-============================================================
-(.venv) PS C:\DeepFakeDetector> 
+
+**Training Finished
+**Best Accuracy : 0.8233
+
+(.venv) PS C:\DeepFakeDetector>
 
 <img width="1360" height="806" alt="Screenshot_20260727_134830_Chrome" src="https://github.com/user-attachments/assets/29b89218-ed5f-4790-82be-1500cb5d9912" />
 
